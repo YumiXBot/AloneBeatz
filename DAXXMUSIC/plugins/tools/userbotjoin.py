@@ -15,7 +15,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 from DAXXMUSIC import app
-from DAXXMUSIC.utils.vip_ban import admin_filter
+from DAXXMUSIC.utils.daxx_ban import admin_filter
 from DAXXMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from DAXXMUSIC.utils.database import get_assistant, is_active_chat
 links = {}
